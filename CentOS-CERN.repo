@@ -1,0 +1,19 @@
+# CentOS-CERN.repo
+#
+# CentOS 8 (CERN) uses local repositories at the http://linuxsoft.cern.ch distribution service
+
+[cern]
+name=CentOS-$releasever - CERN
+baseurl=http://linuxsoft.cern.ch/cern/centos/$releasever/CERN/$basearch
+gpgcheck=1
+enabled=1
+priority=5
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-kojiv2
+
+[cern-testing]
+name=CentOS-$releasever - CERN
+baseurl=http://linuxsoft.cern.ch/cern/centos/8-testing/CERN/$basearch
+gpgcheck=1
+enabled=0
+priority=5
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-kojiv2
