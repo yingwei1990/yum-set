@@ -3,16 +3,16 @@
 # Description: 
 # Author: David(侯英伟)
 # Created: 三 1月  1 16:44:25 2020 (+0800)
-# Last-Updated: 三 1月  1 17:13:16 2020 (+0800)
+# Last-Updated: 六 6月 27 17:46:45 2020 (+0800)
 #           By: David(侯英伟)
-#     Update #: 2
+#     Update #: 3
 # URL:http://125.223.127.17:1118/wordpress/index.php/author/yingwei1990/ 
 This is the yum repo set
 please copy that :
 #+begin_src sh
 cp * /etc/yum.repo.d/
 #+end_src
-本人的yum源设置，采用清华以及阿里的镜像源，默认是全部开启的，每次检查更新可能较慢，可根据个人情况酌情关闭部分；
+本人的yum源设置，采用默认mirrolist速度尚可
 以下大量的yum更新需要epel等源的依赖包，推荐采用
 # 
 # README.org ends here
