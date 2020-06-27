@@ -13,9 +13,9 @@
 #additional packages that extend functionality of existing packages
 [Stream-centosplus]
 name=CentOS-Stream - Plus
-#mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=centosplus&infra=$infra
-baseurl=https://mirrors.aliyun.com/$contentdir/$stream/centosplus/$basearch/os/
+mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=centosplus&infra=$infra
+# baseurl=http://mirror.centos.org/$contentdir/$stream/centosplus/$basearch/os/
 gpgcheck=1
-enabled=0
+enabled=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial
 

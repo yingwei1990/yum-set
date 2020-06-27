@@ -14,7 +14,7 @@
 
 [base-debuginfo]
 name=CentOS-$releasever - Debuginfo
-baseurl=https://mirrors.aliyun.com/$releasever/$basearch/
+baseurl=http://debuginfo.centos.org/$releasever/$basearch/
 gpgcheck=1
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial

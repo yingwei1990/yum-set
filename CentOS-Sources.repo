@@ -12,7 +12,7 @@
 
 [BaseOS-source]
 name=CentOS-$releasever - BaseOS Sources
-baseurl=https://mirrors.aliyun.com/$contentdir/$releasever/BaseOS/Source/
+baseurl=http://vault.centos.org/$contentdir/$releasever/BaseOS/Source/
 gpgcheck=1
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial
@@ -20,7 +20,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial
 #AppStream
 [AppStream-source]
 name=CentOS-$releasever - AppStream Sources
-baseurl=https://mirrors.aliyun.com/$contentdir/$releasever/AppStream/Source/
+baseurl=http://vault.centos.org/$contentdir/$releasever/AppStream/Source/
 gpgcheck=1
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial
@@ -28,7 +28,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial
 #additional packages that may be useful
 [extras-source]
 name=CentOS-$releasever - Extras Sources
-baseurl=https://mirrors.aliyun.com/$contentdir/$releasever/extras/Source/
+baseurl=http://vault.centos.org/$contentdir/$releasever/extras/Source/
 gpgcheck=1
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial
@@ -36,7 +36,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial
 #additional packages that extend functionality of existing packages
 [centosplus-source]
 name=CentOS-$releasever - Plus Sources
-baseurl=https://mirrors.aliyun.com/$contentdir/$releasever/centosplus/Source/
+baseurl=http://vault.centos.org/$contentdir/$releasever/centosplus/Source/
 gpgcheck=1
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial
